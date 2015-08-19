@@ -1,9 +1,9 @@
-ARDUINO_DIR = /usr/share/arduino
+ARDUINO_DIR = /Users/stepcut/projects/arduino/Arduino.app/Contents/Resources/Java/
 
-TARGET = thecloak
+TARGET = cruiserlights
 ARDUINO_LIBS = SPI TCL
 
 BOARD_TAG    = uno
-ARDUINO_PORT = /dev/ttyACM0
+ARDUINO_PORT = /dev/tty.usbmodem1411
 
-include /home/stepcut/n-heptane/projects/arduino/Arduino-Makefile/Arduino.mk
+include ../Arduino-Makefile/Arduino.mk
